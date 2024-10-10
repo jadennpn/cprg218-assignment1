@@ -55,14 +55,16 @@ aside{
     background-color: #97bf04;
     padding: 20px;
     margin: 0;
+    width: 100%;
 }
 footer{
     background-color: #d9043d;
     color: #ffffff;
     font-family: Arial, sans-serif;
     text-align: center;
-    padding:3%;
+    padding:2%;
     width: 100%;
+    margin-bottom: 2%;
 }
 @media (max-width:768px) {
     header{ 
@@ -87,8 +89,7 @@ figure{
 
 main figure img{
     width: 100%;
-    display: auto;
-    margin: 15px;
+    height: auto;
 }
 }
 
@@ -103,7 +104,7 @@ main figure img{
     }
     main figure img{
         align-items: center;
-        width: 400px;
+        width: 300px;
         height: auto;
     }
     figcaption{
